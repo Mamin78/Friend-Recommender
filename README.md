@@ -1,2 +1,2 @@
-# Friend-Suggester
-A graph-based model that suggests new people as your friends in social networks.
+# Friend Suggestion on Facebook
+In this project, I created a graph-based model of the dataset. Then, I found unconnected edges and edges that I could remove without affecting the graph's connectivity. The first type of link is considered a class containing links that will not be added to the network in the future. The other kind of edge is possible edges. After these steps, I trained a lightGBM model on the extracted data. Finally, you can find new friends for a user on Facebook either by their name or id.
